@@ -1,0 +1,1 @@
+!Online_Optuna connects to NTFY to push notifications to the secret channel when BTC is expected to move >0.224% with >0.9 confidence as predicted by the XGBoost Optuna tuned model with ~75 features. Its 'Online' as it pulls data from a PostgreSQL server being populated by another script collecting min agg OHLCV data from the Coinbase API
